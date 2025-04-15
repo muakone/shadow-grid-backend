@@ -21,7 +21,7 @@ recommendationsRouter.post("/", (req, res) => {
             satisfied: home.production >= home.dailyConsumption
         };
     });
-    console.log("✅ Synced Recommendations generated.");
+    console.log("Recommendations generated.");
     res.json(recommendations);
 });
 exports.default = recommendationsRouter;
