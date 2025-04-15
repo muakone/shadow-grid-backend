@@ -24,7 +24,7 @@ recommendationsRouter.post("/", (req, res) => {
   });
   
 
-  console.log("✅ Synced Recommendations generated.");
+  console.log("Recommendations generated.");
   res.json(recommendations);
 });
 
